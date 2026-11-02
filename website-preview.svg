@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Matchao website homepage preview</title>
+  <desc id="description">A vector illustration of the Matchao matcha storefront, with its navigation, Fresh Pressed Matcha headline, featured matcha drink, and product card.</desc>
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8d8c5"/>
+      <stop offset=".52" stop-color="#79b8a0"/>
+      <stop offset="1" stop-color="#d7e4c9"/>
+    </linearGradient>
+    <linearGradient id="drink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8cf91" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#477858" stop-opacity=".96"/>
+    </linearGradient>
+    <clipPath id="hero-clip"><rect x="48" y="286" width="1104" height="416" rx="22"/></clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#143f49" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="#f2f8f6"/>
+  <rect x="1" y="1" width="1198" height="758" rx="25" fill="none" stroke="#dce8e4"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#143f49">
+    <text x="54" y="45" font-size="12" letter-spacing="2.4" fill="#6c8984">A LITTLE MORE INTENTION, EVERY DAY</text>
+    <text x="54" y="111" font-size="68" letter-spacing="-3">Fresh</text>
+    <text x="54" y="169" font-size="68" letter-spacing="-3" fill="#9dbdb5">Pressed</text>
+    <text x="54" y="227" font-size="68" letter-spacing="-3">Matcha</text>
+    <line x1="662" y1="62" x2="662" y2="230" stroke="#cbdcd7"/>
+    <text x="701" y="82" font-size="12" letter-spacing="1.3">ABOUT US  ↗</text>
+    <text x="841" y="82" font-size="12" letter-spacing="1.3">HOW IT WORKS  ↗</text>
+    <circle cx="718" cy="133" r="13" fill="#e8765b"/>
+    <circle cx="749" cy="133" r="13" fill="#8bbba4"/>
+    <circle cx="780" cy="133" r="13" fill="#e6c6a9"/>
+    <text x="808" y="139" font-size="15" font-weight="700">+100K</text>
+    <text x="701" y="176" font-size="13" fill="#537078">Authentic Japanese matcha, crafted from</text>
+    <text x="701" y="197" font-size="13" fill="#537078">first-harvest tea leaves for calm energy</text>
+    <text x="701" y="218" font-size="13" fill="#537078">and a brighter daily ritual.</text>
+  </g>
+
+  <g clip-path="url(#hero-clip)">
+    <rect x="48" y="286" width="1104" height="416" fill="url(#hero)"/>
+    <circle cx="950" cy="330" r="194" fill="#f2e5c7" opacity=".38"/>
+    <circle cx="1018" cy="465" r="156" fill="#eaf1dd" opacity=".43"/>
+    <path d="M48 590C198 506 280 550 426 496s250-54 391 15 228 73 335 10v181H48Z" fill="#527e68" opacity=".35"/>
+    <path d="M48 635c146-65 262-4 414-51s260-53 399 6 214 38 291-1v113H48Z" fill="#315f53" opacity=".24"/>
+    <g transform="translate(744 317) rotate(7 130 160)">
+      <ellipse cx="149" cy="329" rx="153" ry="25" fill="#365e50" opacity=".24"/>
+      <path d="M61 91h177l-18 205c-2 23-19 39-41 39h-63c-22 0-39-16-41-39Z" fill="#f5f2e6" fill-opacity=".72" stroke="#fffdf3" stroke-width="8"/>
+      <path d="M73 174h153l-13 119c-2 17-13 27-29 27h-66c-16 0-27-10-29-27Z" fill="url(#drink)"/>
+      <path d="M79 173c20-12 40 7 61-1 22-9 40 6 57 0 10-4 20-3 31 1" fill="none" stroke="#c5dda8" stroke-width="9" stroke-linecap="round"/>
+      <path d="M79 106h148" stroke="#fffdf5" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+      <path d="M119 92c-6-44 13-65 34-82" fill="none" stroke="#fdfcf3" stroke-width="8" stroke-linecap="round"/>
+      <path d="M116 54c-30-6-39-20-42-34 25-2 42 10 42 34Zm33-39c15-27 34-34 50-32-7 24-23 36-50 32Z" fill="#f7f5e9" opacity=".9"/>
+      <path d="M238 134c53-4 71 24 68 55-4 32-35 45-73 26" fill="none" stroke="#f4f1e4" stroke-width="12" opacity=".76"/>
+      <circle cx="278" cy="180" r="33" fill="none" stroke="#f4f1e4" stroke-width="9" opacity=".7"/>
+    </g>
+    <g transform="translate(188 536)">
+      <ellipse cx="0" cy="76" rx="91" ry="19" fill="#315f53" opacity=".28"/>
+      <path d="M-70 5h140l-11 60c-3 18-20 27-59 27s-56-9-59-27Z" fill="#f8f4e8"/>
+      <ellipse cx="0" cy="5" rx="70" ry="21" fill="#fffdf4"/>
+      <ellipse cx="0" cy="8" rx="49" ry="13" fill="#789c63"/>
+      <path d="M-22 9c9-10 27-10 39-1-8 9-27 11-39 1Z" fill="#c6d89c"/>
+    </g>
+    <g font-family="Arial, Helvetica, sans-serif" fill="#fff">
+      <rect x="74" y="311" width="122" height="31" rx="16" fill="#143f49" fill-opacity=".28" stroke="#fff" stroke-opacity=".6"/>
+      <text x="91" y="331" font-size="11" letter-spacing=".6">FIRST HARVEST</text>
+      <text x="82" y="421" font-size="37" font-weight="700">A brighter kind</text>
+      <text x="82" y="466" font-size="37" font-weight="700">of everyday.</text>
+      <text x="84" y="494" font-size="13">Thoughtful matcha for your daily ritual.</text>
+    </g>
+    <g filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif">
+      <rect x="755" y="571" width="365" height="103" rx="14" fill="#143f49" fill-opacity=".9" stroke="#fff" stroke-opacity=".55"/>
+      <rect x="770" y="585" width="74" height="74" rx="9" fill="#b9d1a5"/>
+      <ellipse cx="807" cy="633" rx="23" ry="7" fill="#678f6a"/>
+      <path d="M790 610h34l-4 22c-2 8-24 8-26 0Z" fill="#f7f1df"/>
+      <ellipse cx="807" cy="610" rx="17" ry="6" fill="#fffdf5"/>
+      <ellipse cx="807" cy="612" rx="11" ry="4" fill="#6a9a69"/>
+      <text x="858" y="603" font-size="12" font-weight="700" fill="#fff">Drink Better. Focus Longer.</text>
+      <text x="858" y="623" font-size="10" fill="#e1eeea">Your daily matcha ritual, crafted for calm energy.</text>
+      <text x="858" y="649" font-size="12" font-weight="700" fill="#fff">$14.99</text>
+      <circle cx="1082" cy="622" r="17" fill="#fff"/>
+      <text x="1076" y="629" font-size="21" fill="#143f49">+</text>
+    </g>
+    <line x1="75" y1="682" x2="1125" y2="682" stroke="#fff" stroke-opacity=".65"/>
+    <g font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#fff">
+      <text x="78" y="696">CEREMONIAL COLLECTION  →</text>
+      <text x="488" y="696">DAILY RITUAL COLLECTION  →</text>
+      <text x="870" y="696">LIMITED HARVEST  →</text>
+    </g>
+  </g>
+  <text x="600" y="735" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1.3" fill="#6c8984">MATCHAO · A BETTER DAILY RITUAL</text>
+</svg>
