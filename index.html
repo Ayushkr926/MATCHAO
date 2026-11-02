@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#143f49">
+    <meta name="description" content="Thoughtfully sourced Japanese matcha for a brighter daily ritual.">
+    <title>Matchao - A Better Daily Ritual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <button class="menu-toggle icon-button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+            <a href="shop.html">Shop Matcha</a>
+            <a href="brew-guide.html">Brew Guide</a>
+            <a href="about.html">Our Story</a>
+            <a href="journal.html">Journal</a>
+        </nav>
+        <a class="wordmark" href="#top" aria-label="Matchao home"><span class="brand-symbol" aria-hidden="true">✿</span> MATCHAO<sup>™</sup></a>
+        <button class="button button-dark cart-trigger" type="button" aria-label="Open shopping bag">Shop Matcha <span class="arrow">↗</span><span class="cart-count" aria-label="Items in bag">0</span></button>
+    </header>
+
+    <main id="top">
+        <section class="intro page-wrap" aria-labelledby="intro-title">
+            <h1 id="intro-title">Fresh<br><span>Pressed</span><br>Matcha</h1>
+            <div class="intro-aside">
+                <div class="eyebrow-links"><a href="about.html">About Us ↗</a><a href="brew-guide.html">How It Works ↗</a></div>
+                <div class="community"><div class="avatar-stack" aria-hidden="true"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80" alt=""><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80" alt=""><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=80&q=80" alt=""></div><strong>+100K</strong></div>
+                <p>Experience the authentic Japanese matcha crafted from first-harvest tea leaves for sustained energy, focus, and daily wellness.</p>
+            </div>
+        </section>
+
+        <section class="hero page-wrap" aria-label="Featured matcha collection">
+            <div class="hero-image image-surface">
+                <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=2200&q=88" alt="Iced matcha drinks ready to share" fetchpriority="high">
+                <div class="hero-wash"></div>
+                <div class="flavor-tags" aria-label="Matcha varieties">
+                    <a href="#collections" data-filter="ceremonial">Ceremonial</a><a href="#collections" data-filter="latte">Latte Blend</a><a href="#collections" data-filter="vanilla">Vanilla</a><a href="#collections" data-filter="berry">Strawberry</a><a href="#collections" data-filter="coconut">Mango ↗</a>
+                </div>
+                <div class="hero-note"><img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=180&q=80" alt="A glass of iced matcha"><div><strong>Drink Better. Focus Longer.</strong><p>Meet your daily matcha ritual, crafted for calm energy.</p><span>$14.99</span></div><button class="add-button" data-add="Daily Ritual Starter" data-price="14.99" aria-label="Add Daily Ritual Starter to bag">+</button></div>
+                <div class="social-rail" aria-label="Social links"><a href="#footer" aria-label="Instagram">ig</a><a href="#footer" aria-label="X">𝕏</a><a href="#footer" aria-label="LinkedIn">in</a><a href="#footer" aria-label="Facebook">f</a></div>
+                <div class="hero-caption"><a href="#collections">Ceremonial Collection <span>→</span></a><a href="#ritual">Daily Ritual Collection <span>→</span></a><a href="#collections">Limited Harvest Collection <span>→</span></a></div>
+            </div>
+        </section>
+
+        <section class="discover page-wrap" id="ritual">
+            <div class="section-heading"><h2>Discover Matcha<br><em>For Every Ritual</em></h2><div class="ingredient-pair"><img src="https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=480&q=85" alt="Stone-ground matcha powder"><img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=480&q=85" alt="Fresh green tea leaves"></div></div>
+            <div class="discover-grid">
+                <div class="ritual-photos"><figure><img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=520&q=85" alt="A quiet morning tea ritual"><figcaption>Morning Rituals</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=520&q=85" alt="A matcha drink enjoyed outside"><figcaption>Daily Moments</figcaption></figure></div>
+                <div class="discover-copy"><h3>Crafted For Everyday <em>Wellness</em></h3><p>Experience authentic Japanese matcha designed to support focus, balance, and mindful living.</p></div>
+                <div class="discover-index">(01)</div><h3 class="ordinary-title">Matcha Beyond <em>The Ordinary</em></h3><p class="discover-description">Thoughtfully sourced and expertly crafted, each blend is designed to elevate your daily routine with clean energy and rich flavor.</p>
+            </div>
+            <div class="carousel-controls"><button class="round-button ritual-prev" aria-label="Previous ritual">←</button><button class="round-button ritual-next" aria-label="Next ritual">→</button></div>
+        </section>
+
+        <section class="experience page-wrap" id="story">
+            <div class="ingredient-art"><img src="https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=1200&q=88" alt="Fine matcha powder, stone ground for a smooth taste"><span class="callout callout-one">Ceremonial<br>Grade</span><span class="callout callout-two">Stone<br>Ground</span><span class="callout callout-three">Rich<br>Antioxidants</span><div class="art-caption"><span>✿</span> Enjoy steady energy, enhanced concentration, and a smooth taste crafted from Japan's finest tea leaves.</div></div>
+            <div class="experience-copy"><p class="kicker">THE MATCHA STANDARD</p><h2>The Matcha<br>Experience <em>Refined</em></h2><div class="benefit-icons"><span title="Stone ground">◌</span><span title="Plant based">♧</span><span title="Daily wellness">♡</span><span title="Pure ingredients">8+</span></div><div class="experience-bottom"><div><h3>Crafted For<br>Modern Living</h3><p>The perfect balance of wellness, flavor, and mindful living.</p></div><figure><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=85" alt="A refreshing matcha moment"><figcaption>Matcha Moments <span>↗ Daily Wellness</span></figcaption></figure></div><a class="circle-link" href="#collections" aria-label="Explore the ritual">↗</a></div>
+        </section>
+
+        <section class="collections page-wrap" id="collections">
+            <div class="collection-heading"><h2>Discover Matcha<br><span>Collections <em>For Every Ritual</em></span></h2><div class="filter-tabs" role="group" aria-label="Filter products"><button class="filter-button is-active" data-filter="all" aria-pressed="true">All</button><button class="filter-button" data-filter="ceremonial" aria-pressed="false">Ceremonial</button><button class="filter-button" data-filter="latte" aria-pressed="false">Latte blends</button></div></div>
+            <div class="product-layout">
+                <article class="product-card product-card-dark" data-category="ceremonial"><div class="product-photo"><img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85" alt="Ceremonial matcha latte"></div><h3>Ceremonial Matcha</h3><p class="product-subtitle">First harvest · Uji, Japan</p><div class="product-bottom"><span>From — <strong>$29</strong></span><button class="add-button" data-add="Ceremonial Matcha" data-price="29" aria-label="Add Ceremonial Matcha to bag">+</button></div></article>
+                <article class="product-card product-card-teal" data-category="latte"><div class="product-photo"><img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85" alt="Creamy matcha latte blend"></div><h3>Matcha Latte Blend</h3><p class="product-subtitle">Smooth, bright, and ready to whisk</p><div class="product-bottom"><span>From — <strong>$24</strong></span><button class="add-button add-button-light" data-add="Matcha Latte Blend" data-price="24" aria-label="Add Matcha Latte Blend to bag">+</button></div></article>
+                <div class="collection-aside"><h3>Crafted For Modern<br>Wellness</h3><div class="spec-list"><p><span>Ceremonial Grade</span><small>First-harvest leaves sourced from Japan.</small><b>2026</b></p><p><span>Stone Ground</span><small>Traditionally milled for exceptional texture.</small><b>2026</b></p><p><span>Natural Energy</span><small>Sustained focus without the crash.</small><b>2026</b></p></div><a class="text-link" href="shop.html">See all 8 blends <span>↗</span></a></div>
+                <div class="collection-promo"><h3>Every Sip, A Better<br>Ritual</h3><p>Experience authentic Japanese matcha crafted to elevate your mornings, enhance focus, and support mindful living.</p><a class="button button-dark" href="#footer">Shop Collection <span class="arrow">↗</span></a></div>
+                <article class="product-card product-card-pale" data-category="latte"><div class="product-photo"><img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85" alt="Vanilla matcha drink"></div><h3>Vanilla Matcha</h3><p class="product-subtitle">Soft vanilla · ceremonial matcha</p><div class="product-bottom"><span>From — <strong>$26</strong></span><button class="add-button" data-add="Vanilla Matcha" data-price="26" aria-label="Add Vanilla Matcha to bag">+</button></div></article>
+                <article class="product-card product-card-pale" data-category="latte"><div class="product-photo"><img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=900&q=85" alt="Coconut matcha drink"></div><h3>Coconut Matcha</h3><p class="product-subtitle">Coconut cream · bright matcha</p><div class="product-bottom"><span>From — <strong>$28</strong></span><button class="add-button" data-add="Coconut Matcha" data-price="28" aria-label="Add Coconut Matcha to bag">+</button></div></article>
+                <article class="product-card product-card-dark extra-product" data-category="ceremonial"><div class="product-photo"><img src="https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=900&q=85" alt="Bright organic matcha powder"></div><h3>First Light Organic</h3><p class="product-subtitle">Organic first harvest · Kagoshima</p><div class="product-bottom"><span>From — <strong>$32</strong></span><button class="add-button" data-add="First Light Organic" data-price="32" aria-label="Add First Light Organic to bag">+</button></div></article>
+                <article class="product-card product-card-teal extra-product" data-category="latte"><div class="product-photo"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85" alt="Strawberry matcha drink"></div><h3>Strawberry Cloud</h3><p class="product-subtitle">Berry bright · small-batch blend</p><div class="product-bottom"><span>From — <strong>$27</strong></span><button class="add-button add-button-light" data-add="Strawberry Cloud" data-price="27" aria-label="Add Strawberry Cloud to bag">+</button></div></article>
+                <article class="product-card product-card-pale extra-product" data-category="latte"><div class="product-photo"><img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85" alt="Mango matcha blend"></div><h3>Mango Grove</h3><p class="product-subtitle">Golden mango · smooth matcha</p><div class="product-bottom"><span>From — <strong>$27</strong></span><button class="add-button" data-add="Mango Grove" data-price="27" aria-label="Add Mango Grove to bag">+</button></div></article>
+            </div>
+        </section>
+
+        <section class="feature page-wrap" aria-label="Matcha benefits">
+            <img class="feature-image" src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=2000&q=88" alt="A freshly prepared matcha drink">
+            <div class="feature-overlay"></div><div class="feature-top"><p class="kicker">A DAILY PRACTICE</p><h2>Ancient Tradition.<br>Modern <em>Wellness.</em></h2><a class="button button-light" href="#collections">Explore Collection <span class="arrow">↗</span></a></div>
+            <div class="feature-label label-left">Ceremonial<br>Grade Matcha</div><div class="feature-label label-right">Rich In<br>Antioxidants</div><div class="feature-label label-low-left">Natural<br>L-Theanine</div><div class="feature-label label-low-right">Calm Energy<br>All Day</div>
+            <div class="feature-bottom"><h3>Crafted For Daily<br><em>Wellness Rituals</em></h3><div class="pills"><span>✓ Stone Ground</span><span>✓ Ceremonial Grade</span><span>✓ Rich Antioxidants</span><span>✓ Vegan Friendly</span><span>✓ Dairy Free</span><span>✓ Smooth Taste</span></div></div>
+            <div class="feature-controls"><button class="round-button feature-prev" aria-label="Previous feature image">←</button><button class="round-button feature-next" aria-label="Next feature image">→</button></div>
+        </section>
+
+        <section class="testimonials page-wrap" aria-labelledby="reviews-title">
+            <h2 id="reviews-title">What Our Customer <em>Says</em></h2><div class="review-rule"></div>
+            <div class="review-grid"><div class="quote-mark" aria-hidden="true">“</div><div class="review-content"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote id="review-text">A little ritual that makes my mornings feel calmer. The flavor is fresh, the energy is steady, and I look forward to every cup.</blockquote><div class="review-author"><img id="review-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt=""><div><strong id="review-name">Maya Bennett</strong><span id="review-role">Creative Director</span></div></div></div></div>
+            <div class="review-controls"><button class="round-button review-prev" aria-label="Previous review">←</button><div class="review-dots" aria-label="Review pages"><button class="review-dot is-active" aria-label="Review 1" aria-current="true"></button><button class="review-dot" aria-label="Review 2"></button><button class="review-dot" aria-label="Review 3"></button></div><button class="round-button review-next" aria-label="Next review">→</button></div>
+        </section>
+    </main>
+
+    <footer class="site-footer page-wrap" id="footer">
+        <div class="footer-top"><div class="footer-pitch"><h2>Elevate Your<br>Daily <em>Matcha</em><br><em>Ritual</em></h2><a class="button button-light" href="#collections">Shop Matcha <span class="arrow">↗</span></a><a class="button button-outline" href="#story">Learn More <span class="arrow">↗</span></a></div>
+            <div class="footer-column"><h3>Collections</h3><a href="shop.html">Ceremonial Matcha</a><a href="shop.html">Daily Matcha</a><a href="shop.html">Limited Harvest</a><a href="shop.html">Gift Sets</a><h3>Resources</h3><a href="brew-guide.html">Brewing Guide</a><a href="journal.html">The Journal</a><a href="journal.html">Tea Notes</a></div>
+            <div class="footer-column"><h3>Company</h3><a href="about.html">About Us</a><a href="about.html">Our Story</a><a href="about.html#sourcing">Sustainability</a><a href="journal.html">Journal</a><a href="about.html#contact">Contact</a></div>
+            <div class="footer-column footer-contact"><h3>Contact</h3><a href="tel:+18553499824">+1 (855) 349-8824</a><a href="mailto:hello@matchao.com">hello@matchao.com</a><a href="#footer">◎ Instagram</a><a href="#footer">𝕏 Twitter</a><a href="#footer">f Facebook</a><form class="newsletter-form"><label for="email">Notes from the tea room</label><div><input id="email" type="email" placeholder="Your email address" required><button aria-label="Subscribe">→</button></div><span class="form-message" aria-live="polite"></span></form></div>
+        </div>
+        <a class="footer-wordmark" href="#top"><span aria-hidden="true">✿</span> MATCHAO<sup>™</sup></a>
+        <div class="footer-legal"><span>© 2026 Matchao. All Rights Reserved.</span><a href="#footer">Terms & Conditions</a><a href="#footer">Privacy Policy</a></div>
+    </footer>
+
+    <dialog class="cart-dialog" aria-labelledby="cart-title"><div class="cart-heading"><h2 id="cart-title">Your bag <span class="dialog-count">(0)</span></h2><button class="icon-button cart-close" aria-label="Close bag">×</button></div><div class="cart-items"></div><div class="cart-empty">Your bag is waiting for a little ritual.</div><div class="cart-total"><span>Subtotal</span><strong>$0.00</strong></div><button class="button button-dark checkout-button" type="button">Continue to checkout <span class="arrow">↗</span></button><p class="checkout-note">Checkout is a demo. Your items will stay right here.</p></dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

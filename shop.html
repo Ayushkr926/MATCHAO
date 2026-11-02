@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#143f49">
+    <meta name="description" content="Explore Matchao's Japanese matcha, latte blends, and daily ritual tools.">
+    <title>Shop Matcha | Matchao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <button class="menu-toggle icon-button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation"><a href="shop.html" aria-current="page">Shop Matcha</a><a href="brew-guide.html">Brew Guide</a><a href="about.html">Our Story</a><a href="journal.html">Journal</a></nav>
+        <a class="wordmark" href="index.html"><span class="brand-symbol" aria-hidden="true">✿</span> MATCHAO<sup>™</sup></a>
+        <button class="button button-dark cart-trigger" type="button" aria-label="Open shopping bag">Your Bag <span class="arrow">↗</span><span class="cart-count" aria-label="Items in bag">0</span></button>
+    </header>
+    <main>
+        <section class="page-hero page-shell">
+            <p class="page-eyebrow">THE MATCHAO SHOP / 01—08</p>
+            <h1>Find your<br><em>daily green.</em></h1>
+            <div class="page-hero-copy"><p>Small-batch Japanese matcha for slow mornings, clear afternoons, and everything in between. Pick a blend, make it yours.</p><span class="page-hero-index">MADE FOR YOUR MOMENT ↘</span></div>
+        </section>
+        <section class="page-shell" aria-label="Matcha products">
+            <div class="shop-tools">
+                <div class="filter-tabs" role="group" aria-label="Filter products">
+                    <button class="filter-button is-active" data-filter="all" aria-pressed="true">Everything</button>
+                    <button class="filter-button" data-filter="ceremonial" aria-pressed="false">Ceremonial</button>
+                    <button class="filter-button" data-filter="latte" aria-pressed="false">Latte blends</button>
+                    <button class="filter-button" data-filter="tools" aria-pressed="false">Tea tools</button>
+                </div>
+                <label class="catalog-search"><span aria-hidden="true">⌕</span><input id="catalog-search" type="search" placeholder="Find your blend" aria-label="Search products"></label>
+                <label class="visually-hidden" for="catalog-sort">Sort products</label>
+                <select id="catalog-sort" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name: A to Z</option></select>
+            </div>
+            <p class="catalog-results" id="catalog-count" aria-live="polite">8 thoughtfully made things</p>
+            <div class="catalog-grid" id="catalog-grid">
+                <article class="product-card product-card-dark" data-category="ceremonial" data-price="29" data-name="Ceremonial Matcha"><div class="product-photo"><img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=85" alt="A glass of vibrant ceremonial matcha"></div><h3>Ceremonial Matcha</h3><p class="product-subtitle">First harvest · Uji, Japan</p><div class="product-bottom"><span>30 g · <strong>$29</strong></span><button class="add-button" data-add="Ceremonial Matcha" data-price="29" aria-label="Add Ceremonial Matcha to bag">+</button></div></article>
+                <article class="product-card product-card-teal" data-category="ceremonial" data-price="32" data-name="First Light Organic"><div class="product-photo"><img src="https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=900&q=85" alt="Fresh matcha powder ready to whisk"></div><h3>First Light Organic</h3><p class="product-subtitle">Organic first harvest · Kagoshima</p><div class="product-bottom"><span>30 g · <strong>$32</strong></span><button class="add-button add-button-light" data-add="First Light Organic" data-price="32" aria-label="Add First Light Organic to bag">+</button></div></article>
+                <article class="product-card product-card-pale" data-category="ceremonial" data-price="38" data-name="Single Origin Reserve"><div class="product-photo"><img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85" alt="Japanese tea leaves in morning light"></div><h3>Single Origin Reserve</h3><p class="product-subtitle">Limited harvest · Kyoto, Japan</p><div class="product-bottom"><span>30 g · <strong>$38</strong></span><button class="add-button" data-add="Single Origin Reserve" data-price="38" aria-label="Add Single Origin Reserve to bag">+</button></div></article>
+                <article class="product-card product-card-dark" data-category="latte" data-price="24" data-name="Daily Latte Blend"><div class="product-photo"><img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=900&q=85" alt="Iced matcha latte with a smooth finish"></div><h3>Daily Latte Blend</h3><p class="product-subtitle">Smooth, bright, and easy to whisk</p><div class="product-bottom"><span>50 g · <strong>$24</strong></span><button class="add-button" data-add="Daily Latte Blend" data-price="24" aria-label="Add Daily Latte Blend to bag">+</button></div></article>
+                <article class="product-card product-card-pale" data-category="latte" data-price="26" data-name="Vanilla Matcha"><div class="product-photo"><img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=900&q=85" alt="Creamy vanilla matcha drink"></div><h3>Vanilla Matcha</h3><p class="product-subtitle">Soft vanilla · pure Japanese matcha</p><div class="product-bottom"><span>50 g · <strong>$26</strong></span><button class="add-button" data-add="Vanilla Matcha" data-price="26" aria-label="Add Vanilla Matcha to bag">+</button></div></article>
+                <article class="product-card product-card-teal" data-category="latte" data-price="27" data-name="Strawberry Cloud"><div class="product-photo"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85" alt="A refreshing berry matcha latte"></div><h3>Strawberry Cloud</h3><p class="product-subtitle">Berry bright · small-batch blend</p><div class="product-bottom"><span>50 g · <strong>$27</strong></span><button class="add-button add-button-light" data-add="Strawberry Cloud" data-price="27" aria-label="Add Strawberry Cloud to bag">+</button></div></article>
+                <article class="product-card product-card-dark" data-category="latte" data-price="28" data-name="Coconut Matcha"><div class="product-photo"><img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=85" alt="A bright coconut matcha drink"></div><h3>Coconut Matcha</h3><p class="product-subtitle">Coconut cream · bright matcha</p><div class="product-bottom"><span>50 g · <strong>$28</strong></span><button class="add-button" data-add="Coconut Matcha" data-price="28" aria-label="Add Coconut Matcha to bag">+</button></div></article>
+                <article class="product-card product-card-pale" data-category="tools" data-price="34" data-name="Whisk & Bowl Set"><div class="product-photo"><img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?auto=format&fit=crop&w=900&q=85" alt="A handmade ceramic tea bowl"></div><h3>Whisk & Bowl Set</h3><p class="product-subtitle">Hand-finished ceramic · bamboo whisk</p><div class="product-bottom"><span>One set · <strong>$34</strong></span><button class="add-button" data-add="Whisk & Bowl Set" data-price="34" aria-label="Add Whisk and Bowl Set to bag">+</button></div></article>
+            </div>
+        </section>
+        <section class="page-shell page-cta reveal"><h2>A good cup starts with a little know-how.</h2><a class="button button-dark" href="brew-guide.html">Meet your whisk <span class="arrow">↗</span></a></section>
+    </main>
+    <footer class="site-footer page-wrap" id="footer">
+        <div class="footer-top"><div class="footer-pitch"><h2>Elevate Your<br>Daily <em>Matcha</em><br><em>Ritual</em></h2><a class="button button-light" href="shop.html">Shop Matcha <span class="arrow">↗</span></a><a class="button button-outline" href="about.html">Our Story <span class="arrow">↗</span></a></div><div class="footer-column"><h3>Explore</h3><a href="shop.html">All blends</a><a href="shop.html">Tea tools</a><a href="brew-guide.html">Brew guide</a></div><div class="footer-column"><h3>Matchao</h3><a href="about.html">Our story</a><a href="journal.html">Journal</a><a href="about.html#contact">Contact</a></div><div class="footer-column footer-contact"><h3>Stay in the loop</h3><form class="newsletter-form"><label for="email">Notes from the tea room</label><div><input id="email" type="email" placeholder="Your email address" required><button aria-label="Subscribe">→</button></div><span class="form-message" aria-live="polite"></span></form></div></div>
+        <a class="footer-wordmark" href="index.html"><span aria-hidden="true">✿</span> MATCHAO<sup>™</sup></a><div class="footer-legal"><span>© 2026 Matchao. All Rights Reserved.</span><a href="about.html#contact">Contact</a><a href="#footer">Privacy</a></div>
+    </footer>
+    <dialog class="cart-dialog" aria-labelledby="cart-title"><div class="cart-heading"><h2 id="cart-title">Your bag <span class="dialog-count">(0)</span></h2><button class="icon-button cart-close" aria-label="Close bag">×</button></div><div class="cart-items"></div><div class="cart-empty">Your bag is waiting for a little ritual.</div><div class="cart-total"><span>Subtotal</span><strong>$0.00</strong></div><button class="button button-dark checkout-button" type="button">Continue to checkout <span class="arrow">↗</span></button><p class="checkout-note">Checkout is a demo. Your items will stay right here.</p></dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
